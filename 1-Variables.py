@@ -16,6 +16,10 @@ price = 10.99
 gpa = 3.75
 print(f"My GPA is {gpa}")
 
+
+# this line print specific floating point, however, it will automatically round the number
+print(f"My GPA is {gpa:.1f}")
+
 # Boolean
 is_student = True
 print(f"Are you a student?: {is_student}")
